@@ -1,4 +1,4 @@
-import UserModel from "../user/user.model.js";
+import UserModel from "../User/user.model.js";
 import { ApplicationError } from "../../error-handler/applicationError.js";
 export default class ProductModel {
   constructor(name, desc, price, imageUrl, category, sizes, id) {
